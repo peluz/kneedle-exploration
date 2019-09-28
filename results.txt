@@ -62,32 +62,31 @@ FWD CLF
 
                                                                                    precision    recall  f1-score   support
 
-                                                                       CASA CIVIL     0.9333    0.7778    0.8485        18
-                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.5000    0.5000    0.5000         2
+                                                                       CASA CIVIL     0.8750    0.7778    0.8235        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.6667    1.0000    0.8000         2
                                            DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         8
                                                                   PODER EXECUTIVO     0.6923    0.9000    0.7826        10
                                                                 PODER LEGISLATIVO     1.0000    1.0000    1.0000         1
        SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     1.0000    0.7500    0.8571         4
                                                   SECRETARIA DE ESTADO DE CULTURA     0.9167    0.8462    0.8800        13
-                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.5000    0.5000    0.5000         4
-                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     1.0000    0.7500    0.8571         4
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.3333    0.2500    0.2857         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.7500    0.7500    0.7500         4
 SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     1.0000    1.0000    1.0000         1
                                                  SECRETARIA DE ESTADO DE EDUCAÇÃO     0.7500    0.6923    0.7200        13
                 SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.8261    0.9048    0.8636        21
                                       SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.7500    0.6000    0.6667         5
                                    SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     1.0000    0.7778    0.8750        18
                                                     SECRETARIA DE ESTADO DE SAÚDE     0.9394    0.9688    0.9538        32
-                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.8772    1.0000    0.9346        50
-                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.8500    0.8500    0.8500        20
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.9091    1.0000    0.9524        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.8947    0.8500    0.8718        20
                                             SECRETARIA DE ESTADO DO MEIO AMBIENTE     1.0000    0.5000    0.6667         2
-                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     1.0000    1.0000    1.0000        11
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.9167    1.0000    0.9565        11
 
                                                                         micro avg     0.8776    0.8776    0.8776       237
-                                                                        macro avg     0.8703    0.8062    0.8293       237
-                                                                     weighted avg     0.8836    0.8776    0.8758       237
+                                                                        macro avg     0.8537    0.8193    0.8266       237
+                                                                     weighted avg     0.8802    0.8776    0.8746       237
 
 0.8776371308016878
-
 BWD CLF
 
                                                                                    precision    recall  f1-score   support
@@ -148,6 +147,365 @@ SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOL
 
 0.9029535864978903
 
+FWD CLF NO GRADUAL UNFREEZING
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.9333    0.7778    0.8485        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         8
+                                                                  PODER EXECUTIVO     0.7500    0.9000    0.8182        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     1.0000    0.7500    0.8571         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     1.0000    0.8462    0.9167        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.6667    0.5000    0.5714         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.7500    0.7500    0.7500         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     1.0000    1.0000    1.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     1.0000    0.8462    0.9167        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.9500    0.9048    0.9268        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     1.0000    0.6000    0.7500         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.8500    0.9444    0.8947        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.8378    0.9688    0.8986        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.8772    1.0000    0.9346        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.9444    0.8500    0.8947        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     1.0000    0.5000    0.6667         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     1.0000    1.0000    1.0000        11
+
+                                                                        micro avg     0.8987    0.8987    0.8987       237
+                                                                        macro avg     0.8716    0.7967    0.8234       237
+                                                                     weighted avg     0.9020    0.8987    0.8946       237
+
+0.8987341772151899
+
+BWD CLF NO GRADUAL UNFREEZING
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.8824    0.8333    0.8571        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         8
+                                                                  PODER EXECUTIVO     0.7692    1.0000    0.8696        10
+                                                                PODER LEGISLATIVO     1.0000    1.0000    1.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.6000    0.7500    0.6667         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     1.0000    0.8462    0.9167        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     1.0000    0.2500    0.4000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.7500    0.7500    0.7500         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     1.0000    1.0000    1.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.8333    0.7692    0.8000        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     1.0000    0.9048    0.9500        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     1.0000    0.6000    0.7500         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.9375    0.8333    0.8824        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.8857    0.9688    0.9254        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.8475    1.0000    0.9174        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     1.0000    1.0000    1.0000        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     1.0000    0.5000    0.6667         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     1.0000    1.0000    1.0000        11
+
+                                                                        micro avg     0.8987    0.8987    0.8987       237
+                                                                        macro avg     0.8687    0.7898    0.8080       237
+                                                                     weighted avg     0.9004    0.8987    0.8907       237
+
+0.8987341772151899
+
+FWD + BWD CLF NO GRADUAL UNFREEZE
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.8750    0.7778    0.8235        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         8
+                                                                  PODER EXECUTIVO     0.6923    0.9000    0.7826        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.7500    0.7500    0.7500         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     1.0000    0.8462    0.9167        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     1.0000    0.5000    0.6667         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     1.0000    0.7500    0.8571         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     1.0000    1.0000    1.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     1.0000    0.7692    0.8696        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.9500    0.9048    0.9268        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     1.0000    0.6000    0.7500         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     1.0000    0.8333    0.9091        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.8421    1.0000    0.9143        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.8475    1.0000    0.9174        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     1.0000    0.9500    0.9744        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     1.0000    0.5000    0.6667         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     1.0000    1.0000    1.0000        11
+
+                                                                        micro avg     0.8987    0.8987    0.8987       237
+                                                                        macro avg     0.8925    0.7938    0.8276       237
+                                                                     weighted avg     0.9112    0.8987    0.8966       237
+
+0.8987341772151899
+
+FWD CLF ONLY TOP
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.8667    0.7222    0.7879        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         8
+                                                                  PODER EXECUTIVO     0.7500    0.9000    0.8182        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.6667    0.5000    0.5714         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     1.0000    0.8462    0.9167        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     1.0000    0.2500    0.4000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.7500    0.7500    0.7500         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     1.0000    1.0000    1.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.8571    0.4615    0.6000        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.9375    0.7143    0.8108        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.3333    0.2000    0.2500         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.8571    0.6667    0.7500        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.9091    0.9375    0.9231        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.6447    0.9800    0.7778        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.7273    0.8000    0.7619        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.9091    0.9091    0.9091        11
+
+                                                                        micro avg     0.7890    0.7890    0.7890       237
+                                                                        macro avg     0.6952    0.6125    0.6330       237
+                                                                     weighted avg     0.7956    0.7890    0.7739       237
+
+0.7890295358649789
+
+BWD CLF ONLY TOP
+
+support
+
+                                                                       CASA CIVIL     0.5909    0.7222    0.6500        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     0.8750    0.8750    0.8750         8
+                                                                  PODER EXECUTIVO     0.8182    0.9000    0.8571        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.5000    0.2500    0.3333         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     1.0000    0.8462    0.9167        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.0000    0.0000    0.0000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     1.0000    0.5000    0.6667         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     1.0000    1.0000    1.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.4375    0.5385    0.4828        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.7727    0.8095    0.7907        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.6000    0.6000    0.6000         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.8571    0.6667    0.7500        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.8438    0.8438    0.8438        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.8033    0.9800    0.8829        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.8889    0.8000    0.8421        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     1.0000    1.0000    1.0000        11
+
+                                                                        micro avg     0.7848    0.7848    0.7848       237
+                                                                        macro avg     0.6309    0.5964    0.6048       237
+                                                                     weighted avg     0.7684    0.7848    0.7703       237
+
+0.7848101265822784
+
+BWD + FWD CLF ONLY TOP
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.7368    0.7778    0.7568        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     1.0000    1.0000    1.0000         8
+                                                                  PODER EXECUTIVO     0.8182    0.9000    0.8571        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     1.0000    0.5000    0.6667         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     1.0000    0.8462    0.9167        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     1.0000    0.2500    0.4000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     1.0000    0.5000    0.6667         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     1.0000    1.0000    1.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.8750    0.5385    0.6667        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.8095    0.8095    0.8095        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.7500    0.6000    0.6667         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.9231    0.6667    0.7742        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.9062    0.9062    0.9062        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.7042    1.0000    0.8264        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.6957    0.8000    0.7442        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     1.0000    0.9091    0.9524        11
+
+                                                                        micro avg     0.8101    0.8101    0.8101       237
+                                                                        macro avg     0.7484    0.6318    0.6637       237
+                                                                     weighted avg     0.8157    0.8101    0.7960       237
+
+0.810126582278481
+
+FWD CLF NO LM FINE TUNE
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.0000    0.0000    0.0000        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     0.8333    0.6250    0.7143         8
+                                                                  PODER EXECUTIVO     0.3462    0.9000    0.5000        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.0000    0.0000    0.0000         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     0.3667    0.8462    0.5116        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.0000    0.0000    0.0000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.0000    0.0000    0.0000         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     0.2000    1.0000    0.3333         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.5000    0.1538    0.2353        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.5417    0.6190    0.5778        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.0000    0.0000    0.0000         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.0000    0.0000    0.0000        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.7105    0.8438    0.7714        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.8113    0.8600    0.8350        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.4615    0.3000    0.3636        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.3333    0.9091    0.4878        11
+
+                                                                        micro avg     0.5359    0.5359    0.5359       237
+                                                                        macro avg     0.2687    0.3714    0.2805       237
+                                                                     weighted avg     0.4606    0.5359    0.4724       237
+
+0.5358649789029536
+
+BWD CLF NO LM FINE TUNE
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.0000    0.0000    0.0000        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     0.6154    1.0000    0.7619         8
+                                                                  PODER EXECUTIVO     0.8182    0.9000    0.8571        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.0000    0.0000    0.0000         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     0.6875    0.8462    0.7586        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.0000    0.0000    0.0000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.0000    0.0000    0.0000         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     0.5000    1.0000    0.6667         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     1.0000    0.0769    0.1429        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.5000    0.4286    0.4615        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.0000    0.0000    0.0000         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     1.0000    0.1111    0.2000        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.5085    0.9375    0.6593        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.4324    0.9600    0.5963        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.3333    0.0500    0.0870        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.0000    0.0000    0.0000        11
+
+                                                                        micro avg     0.5063    0.5063    0.5063       237
+                                                                        macro avg     0.3366    0.3321    0.2732       237
+                                                                     weighted avg     0.4582    0.5063    0.3924       237
+
+0.5063291139240507
+
+BWD + FWD CLF NO LM FINE TUNE
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.3333    0.0556    0.0952        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     0.8889    1.0000    0.9412         8
+                                                                  PODER EXECUTIVO     0.7143    1.0000    0.8333        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.0000    0.0000    0.0000         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     0.4583    0.8462    0.5946        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.0000    0.0000    0.0000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.0000    0.0000    0.0000         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     0.2500    1.0000    0.4000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.5000    0.0769    0.1333        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.5714    0.5714    0.5714        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.0000    0.0000    0.0000         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.0000    0.0000    0.0000        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.4915    0.9062    0.6374        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.5412    0.9200    0.6815        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.6250    0.2500    0.3571        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.8750    0.6364    0.7368        11
+
+                                                                        micro avg     0.5527    0.5527    0.5527       237
+                                                                        macro avg     0.3289    0.3822    0.3148       237
+                                                                     weighted avg     0.4636    0.5527    0.4606       237
+
+0.5527426160337553
+
+FWD CLF NO LM FINE TUNE NO GRADUAL UNFREEZE
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.0000    0.0000    0.0000        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     0.3333    0.2500    0.2857         8
+                                                                  PODER EXECUTIVO     0.3214    0.9000    0.4737        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.0000    0.0000    0.0000         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     0.1964    0.8462    0.3188        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.0000    0.0000    0.0000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.0000    0.0000    0.0000         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     0.0000    0.0000    0.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.0000    0.0000    0.0000        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.0833    0.0952    0.0889        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.0000    0.0000    0.0000         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.0000    0.0000    0.0000        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.4082    0.6250    0.4938        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.5246    0.6400    0.5766        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.0000    0.0000    0.0000        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.0000    0.0000    0.0000        11
+
+                                                                        micro avg     0.3207    0.3207    0.3207       237
+                                                                        macro avg     0.0983    0.1767    0.1178       237
+                                                                     weighted avg     0.2088    0.3207    0.2433       237
+
+0.3206751054852321
+
+BWD CLF NO LM FINE TUNE NO GRADUAL UNFREEZE
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.0000    0.0000    0.0000        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         8
+                                                                  PODER EXECUTIVO     0.8571    0.6000    0.7059        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.0000    0.0000    0.0000         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     0.3333    0.8462    0.4783        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.0000    0.0000    0.0000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.0000    0.0000    0.0000         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     0.0000    0.0000    0.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.0000    0.0000    0.0000        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.0000    0.0000    0.0000        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.0000    0.0000    0.0000         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.0000    0.0000    0.0000        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.0000    0.0000    0.0000        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.2500    0.9800    0.3984        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.0000    0.0000    0.0000        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.0000    0.0000    0.0000        11
+
+                                                                        micro avg     0.2785    0.2785    0.2785       237
+                                                                        macro avg     0.0758    0.1277    0.0833       237
+                                                                     weighted avg     0.1072    0.2785    0.1401       237
+
+0.27848101265822783
+
+FWD + BWD CLF NO LM FINE TUNE NO GRADUAL UNFREEZE
+
+                                                                                   precision    recall  f1-score   support
+
+                                                                       CASA CIVIL     0.0000    0.0000    0.0000        18
+                                          CONTROLADORIA GERAL DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         2
+                                           DEFENSORIA PÚBLICA DO DISTRITO FEDERAL     0.0000    0.0000    0.0000         8
+                                                                  PODER EXECUTIVO     0.5714    0.8000    0.6667        10
+                                                                PODER LEGISLATIVO     0.0000    0.0000    0.0000         1
+       SECRETARIA DE ESTADO DE AGRICULTURA, ABASTECIMENTO E DESENVOLVIMENTO RURAL     0.0000    0.0000    0.0000         4
+                                                  SECRETARIA DE ESTADO DE CULTURA     0.2157    0.8462    0.3438        13
+                                SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONÔMICO     0.0000    0.0000    0.0000         4
+                       SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITAÇÃO     0.0000    0.0000    0.0000         4
+SECRETARIA DE ESTADO DE ECONOMIA, DESENVOLVIMENTO, INOVAÇÃO, CIÊNCIA E TECNOLOGIA     0.0000    0.0000    0.0000         1
+                                                 SECRETARIA DE ESTADO DE EDUCAÇÃO     0.0000    0.0000    0.0000        13
+                SECRETARIA DE ESTADO DE FAZENDA, PLANEJAMENTO, ORÇAMENTO E GESTÃO     0.0769    0.0476    0.0588        21
+                                      SECRETARIA DE ESTADO DE JUSTIÇA E CIDADANIA     0.0000    0.0000    0.0000         5
+                                   SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA     0.0000    0.0000    0.0000        18
+                                                    SECRETARIA DE ESTADO DE SAÚDE     0.6667    0.6250    0.6452        32
+                                        SECRETARIA DE ESTADO DE SEGURANÇA PÚBLICA     0.3333    0.8400    0.4773        50
+                                  SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE     0.0000    0.0000    0.0000        20
+                                            SECRETARIA DE ESTADO DO MEIO AMBIENTE     0.0000    0.0000    0.0000         2
+                                           TRIBUNAL DE CONTAS DO DISTRITO FEDERAL     0.0000    0.0000    0.0000        11
+
+                                                                        micro avg     0.3460    0.3460    0.3460       237
+                                                                        macro avg     0.0981    0.1663    0.1154       237
+                                                                     weighted avg     0.2031    0.3460    0.2400       237
+
+0.3459915611814346
 
 FORWARD LM
 
