@@ -9,6 +9,8 @@ Download: [ [paper](https://cic.unb.br/~teodecampos/KnEDLe/propor2020/luz_de_ara
 
 We kindly request that users cite our paper in any publication that is generated as a result of the use of our code or our dataset.
 
+A snapshot of the code that was used to generate the results of the paper above is available from the static page of this project at https://cic.unb.br/~teodecampos/KnEDLe/propor2020.
+
 ## Update (27/05/20)
 The pre-trained language model used in this work was not originally released with its tokenizer model and vocabulary data, so our fine-tuned model and classifier were not able to leverage subword embeddings trained on general domain portuguese data. This has been amended, so we re-ran all experiments using the pre-trained vocab data. This repo contains the  updated ULMFiT training notebook and the updated results.
 
